@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Paddle Landing Builder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-6">
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-900">Dashboard</h1>
+                    <p class="text-gray-600">Gestiona tus landings de pádel</p>
+                </div>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                    + Crear nueva landing
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Landing Card 1 -->
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Padel Pro Sevilla</h3>
+                        <span class="px-2 py-1 text-xs rounded-full bg-yellow-100 text-yellow-700">
+                            Borrador
+                        </span>
+                    </div>
+                    <p class="text-gray-500 mb-4">/padel-pro-sevilla</p>
+                    <div class="space-y-2 mb-4">
+                        <p class="text-sm text-gray-500">
+                            Actualizado: 1 nov 2024
+                        </p>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors">
+                            Editar
+                        </button>
+                        <button class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landing Card 2 -->
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Club Raqueta Madrid</h3>
+                        <span class="px-2 py-1 text-xs rounded-full bg-green-100 text-green-700">
+                            Publicado
+                        </span>
+                    </div>
+                    <p class="text-gray-500 mb-4">/club-raqueta-madrid</p>
+                    <div class="space-y-2 mb-4">
+                        <p class="text-sm text-gray-500">
+                            Actualizado: 28 oct 2024
+                        </p>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors">
+                            Editar
+                        </button>
+                        <button class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-3 rounded-lg text-sm font-medium transition-colors">
+                            Ver
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create New Card -->
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow border-2 border-dashed border-gray-300">
+                <div class="p-6 text-center">
+                    <div class="text-4xl text-gray-400 mb-4">+</div>
+                    <h3 class="text-lg font-medium text-gray-900 mb-2">
+                        Crear nueva landing
+                    </h3>
+                    <p class="text-gray-500 text-sm mb-4">
+                        Comienza a crear una nueva página para tu academia
+                    </p>
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg font-medium transition-colors">
+                        Empezar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
